@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .full-height {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="bg-green-600 p-4 text-white">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#home" class="text-xl font-bold">My Personal Blog</a>
+        <ul class="flex space-x-4">
+            <li><a href="#home" class="hover:text-green-200">Home</a></li>
+            <li><a href="#about" class="hover:text-green-200">About</a></li>
+            <li><a href="#contact" class="hover:text-green-200">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="full-height flex items-center justify-center bg-white">
+    <div class="container mx-auto text-center">
+        <img src="img/dinaa.png" class="mx-auto mb-2 rounded-full" style="width: 300px; height: 230px;">
+        <h1 class="text-4xl font-bold mb-4">Welcome to My Personal Blog</h1>
+        <p class="text-lg mb-8">Saya Dina Nurizka, seorang web developer yang masih belajar untuk merintih karir dalam dunia teknologi.</p>
+        <a href="#about" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full">Learn More</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="full-height flex items-center justify-center bg-green-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-5">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <img src="img/dina2.png" class="rounded-full" style="width: 300px; height: 240px;">
+            <div class="text-justify mx-20">
+                <p class="text-lg">Hai, saya Dina Nurizka, seorang web developer yang masih belajar untuk merintih karir dalam dunia teknologi. Saya percaya bahwa teknologi memiliki kekuatan untuk mengubah dunia dan saya bersemangat untuk menjadi bagian dari perubahan tersebut. Sejak kecil, saya selalu tertarik dengan dunia teknologi dan komputer. Ketertarikan ini mendorong saya untuk belajar lebih dalam tentang pemrograman dan pengembangan web. Dengan semangat belajar yang tinggi, saya terus mencoba hal-hal baru dan mengasah keterampilan saya di bidang ini. Saat ini, saya sedang fokus untuk meningkatkan kemampuan saya dalam pengembangan web. Saya belajar tentang berbagai teknologi dan bahasa pemrograman seperti HTML, CSS, python JavaScript, PHP dan banyak lagi. Setiap hari, saya mencari peluang untuk belajar dan mengembangkan diri agar dapat menjadi seorang web developer yang kompeten dan berkontribusi secara signifikan dalam industri teknologi. Berikut beberapa bahasa pemograman yang sudah mulai saya kuasai :</p>
+                <ul class="list-disc mx-5" >
+                    <li>HTML dan CSS</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="full-height flex items-center justify-center bg-green-800 text-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+        <div class="max-w-md mx-auto">
+            <form action="#" class="flex flex-col space-y-4 text-black">
+                <input type="text" placeholder="Your Name" class="border border-green-200 rounded-md py-2 px-4">
+                <input type="email" placeholder="Your Email" class="border border-green-200 rounded-md py-2 px-4">
+                <textarea placeholder="Your Message" rows="5" class="border border-green-200 rounded-md py-2 px-4"></textarea>
+                <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full">Send Message</button>
+            </form>
+        </div>
+        <p class="text-green-100 mt-3">Atau kirim pesan melalui whatsApp pada nomor 082115452837</p>
+    </div>
+</section>
+
+</body>
+</html>
